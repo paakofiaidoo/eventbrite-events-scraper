@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "scripts": {
+    "get": "node eventbrite.js"
+  }
+}
