@@ -4,6 +4,7 @@
     "json2csv": "^5.0.7"
   },
   "scripts": {
-    "get": "node eventbrite.js"
+    "get-event": "node ./eventbrite/eventbrite.js",
+    "get-organization": "node ./eventbrite/eventbrite[organizers].js"
   }
 }
