@@ -91,6 +91,7 @@ const getEventsData = (event) => {
         console.log("event", event);
         return event;
     }
+    
 
     return removeNullProperties({
         ...event,
@@ -108,18 +109,15 @@ const getEventsData = (event) => {
         event_id: !!event.id ? event.id : null,
         name: !!event.name.text ? event.name.text : event.name,
         summary: !!event.summary ? event.summary.split("\n").join(" ").split(",").join(" ") : null,
-        category: {
-            name: event.category.name,
-            subcategories: event.category.subcategories,
-            format: event.format.name,
-        },
-        organizer: {
-            website: event.organizer.website,
-            organization_id: event.organizer.organization_id,
-            url: event.organizer.url,
-            id: event.organizer.id,
-            name: event.organizer.name,
-        },
+        organizer: !!event.organizer.name
+            ? {
+                  website: event.organizer.website,
+                  organization_id: event.organizer.organization_id,
+                  url: event.organizer.url,
+                  id: event.organizer.id,
+                  name: event.organizer.name,
+              }
+            : event.organizer,
         venue_id: null,
         user_id: null,
         source: null,
@@ -143,6 +141,11 @@ const getEventsData = (event) => {
         end: null,
         format: null,
         start: null,
+        format: event.format ? (event.format.name ? event.format.name : event.format) : null,
+        category: event.category ? (event.category.name ? {
+            name: event.category.name,
+            subcategories: event.category.subcategories,
+        } : event.category) : null,
     });
 };
 module.exports = getData;
