@@ -55,47 +55,8 @@ getData().then((data) => {
 const getEventsData = (events) => {
     return events.map((event) => {
         return event.primary_organizer_id;
-
-        // return removeNullProperties({
-        //     ...event,
-        //     image: null,
-        //     tickets_url: null,
-        //     tickets_by: null,
-        //     event_id: event.id,
-        //     dedup: null,
-        //     debug_info: null,
-        //     parent_url: null,
-        //     hide_end_date: null,
-        //     eventbrite_event_id: null,
-        //     full_description: null,
-        //     image_id: null,
-        //     is_cancelled: null,
-        //     checkout_flow: null,
-        //     hide_start_date: null,
-        //     eid: null,
-        //     id: null,
-        //     name: event.name ? event.name.split(",").join(" ") : null,
-        //     summary: event.summary ? event.summary.split("\n").join(" ").split(",").join(" ") : null,
-        //     organizer_id: event.primary_organizer_id.split(",").length,
-        //     primary_organizer_id: null,
-        //     category: event.tags.map((tag) => {
-        //         return tag.display_name;
-        //     }),
-        //     tags: null,
-        //     is_protected_event: null,
-        //     primary_venue_id: null,
-        // });
     });
 };
-//remove all properties that are null
-function removeNullProperties(obj) {
-    Object.keys(obj).forEach((key) => {
-        if (obj[key] === null) {
-            delete obj[key];
-        }
-    });
-    return obj;
-}
 
 // id  primary_organizer_id  name  summary
 function ConvertToCSV(objArray) {
