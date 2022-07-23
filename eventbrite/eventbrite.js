@@ -1,3 +1,5 @@
+// this script is to get all events from a country in eventbrite
+
 const axios = require("axios");
 const fs = require("fs");
 
@@ -42,7 +44,8 @@ getData().then((data) => {
                 })
                 .then(() => {
                     if (temp.length === 0) {
-                        fs.writeFileSync(`${country}.csv`, ConvertToCSV(events));
+                        // fs.writeFileSync(`${country}.csv`, ConvertToCSV(events));
+                        fs.writeFileSync(`${country}(organizations).json`, JSON.stringify(removeDuplicates(events)));
                     }
                 });
         }
@@ -51,17 +54,48 @@ getData().then((data) => {
 
 const getEventsData = (events) => {
     return events.map((event) => {
-        return {
-            id: event.id,
-            name: event.name ? event.name.split(",").join(" ") : null,
-            summary: event.summary ? event.summary.split("\n").join(" ").split(",").join(" ") : null,
-            organizer: event.primary_organizer_id ? event.primary_organizer_id.split(",").join(" ") : null,
-            start_date: event.start_date,
-            url: event.url,
-            is_online_event: event.is_online_event,
-        };
+        return event.primary_organizer_id;
+
+        // return removeNullProperties({
+        //     ...event,
+        //     image: null,
+        //     tickets_url: null,
+        //     tickets_by: null,
+        //     event_id: event.id,
+        //     dedup: null,
+        //     debug_info: null,
+        //     parent_url: null,
+        //     hide_end_date: null,
+        //     eventbrite_event_id: null,
+        //     full_description: null,
+        //     image_id: null,
+        //     is_cancelled: null,
+        //     checkout_flow: null,
+        //     hide_start_date: null,
+        //     eid: null,
+        //     id: null,
+        //     name: event.name ? event.name.split(",").join(" ") : null,
+        //     summary: event.summary ? event.summary.split("\n").join(" ").split(",").join(" ") : null,
+        //     organizer_id: event.primary_organizer_id.split(",").length,
+        //     primary_organizer_id: null,
+        //     category: event.tags.map((tag) => {
+        //         return tag.display_name;
+        //     }),
+        //     tags: null,
+        //     is_protected_event: null,
+        //     primary_venue_id: null,
+        // });
     });
 };
+//remove all properties that are null
+function removeNullProperties(obj) {
+    Object.keys(obj).forEach((key) => {
+        if (obj[key] === null) {
+            delete obj[key];
+        }
+    });
+    return obj;
+}
 
 // id  primary_organizer_id  name  summary
 function ConvertToCSV(objArray) {
@@ -73,4 +107,19 @@ function ConvertToCSV(objArray) {
         },${obj.is_online_event}\n`;
     });
     return csv;
+}
+
+//function to remove duplicates objects with same id from an array
+function removeDuplicates(arr) {
+    let unique_array = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (
+            unique_array.findIndex((obj) => {
+                return obj === arr[i];
+            }) === -1
+        ) {
+            unique_array.push(arr[i]);
+        }
+    }
+    return unique_array;
 }

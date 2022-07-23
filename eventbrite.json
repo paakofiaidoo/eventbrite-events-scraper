@@ -1,0 +1,2363 @@
+[
+    
+    {
+        "locale": "en_GB",
+        "rank": 0,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F245090289%2F307483646561%2F1%2Foriginal.20220310-182025?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C382%2C4582%2C2291&s=ecd615101d1051665df94d38aceaf8de",
+            "edge_color": "#1e171d"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "294605391657",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.74",
+                "value": 274,
+                "display": "2.74 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "3 GBP",
+                "value": 300
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "87526579",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2022-04-15T17:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2022-04-15T18:00:00",
+            "formatted_time": "18:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "245090289",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "started",
+        "_type": "event",
+        "description": {
+            "text": "Friday night market featuring exclusively Black-owned businesses",
+            "html": "Friday night market featuring exclusively Black-owned businesses"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2022-09-16T22:00:00",
+            "utc": "2022-09-16T21:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "294605391657",
+        "price_range": "£0 - £2.74",
+        "name": {
+            "text": "Black-Owned Hackney Night Market"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/black-owned-hackney-night-market-tickets-294605391657",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "87526579"
+        },
+        "summary": "Friday night market featuring exclusively Black-owned businesses",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "174671549",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2022-03-10T15:26:07Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 1,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F255774979%2F307483646561%2F1%2Foriginal.20220328-153302?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C14%2C1200%2C600&s=5016c2440edf9d25c57b78e970a445a1",
+            "edge_color": "#d8e5ba"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "294721739657",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.00",
+                "value": 200,
+                "display": "2.00 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "2 GBP",
+                "value": 200
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "87546029",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2022-04-16T11:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2022-04-16T12:00:00",
+            "formatted_time": "12:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "255774979",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "started",
+        "_type": "event",
+        "description": {
+            "text": "Vegan street market in the heart of Hackney",
+            "html": "Vegan street market in the heart of Hackney"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2022-09-18T18:00:00",
+            "utc": "2022-09-18T17:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "294721739657",
+        "price_range": "£0 - £2",
+        "name": {
+            "text": "Plant Based Social"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/plant-based-social-tickets-294721739657",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "87546029"
+        },
+        "summary": "Vegan street market in the heart of Hackney",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "174702309",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2022-03-10T17:38:52Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 2,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F262382769%2F307483646561%2F1%2Foriginal.20220407-085600?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C22%2C1920%2C960&s=1fad6ff9be6f3e0e9d953e3b4d77db1f",
+            "edge_color": "#3e374b"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "294745149677",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.00",
+                "value": 200,
+                "display": "2.00 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "2 GBP",
+                "value": 200
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "87553569",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2022-04-29T16:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2022-04-29T17:00:00",
+            "formatted_time": "17:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "262382769",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "started",
+        "_type": "event",
+        "description": {
+            "text": "More than just a vegan market!",
+            "html": "More than just a vegan market!"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2022-09-30T22:00:00",
+            "utc": "2022-09-30T21:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "294745149677",
+        "price_range": "£0 - £2",
+        "name": {
+            "text": "Vegan East LDN"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/vegan-east-ldn-tickets-294745149677",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "87553569"
+        },
+        "summary": "More than just a vegan market!",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "181145579",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2022-03-10T17:50:22Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 3,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F245113599%2F307483646561%2F1%2Foriginal.20220310-184711?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C318%2C4582%2C2291&s=9304e0d9b96a271d0d64e0e86f3e9bd9",
+            "edge_color": "#81747c"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "294575482197",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.74",
+                "value": 274,
+                "display": "2.74 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "3 GBP",
+                "value": 300
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "87518089",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2022-04-30T11:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2022-04-30T12:00:00",
+            "formatted_time": "12:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "245113599",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "started",
+        "_type": "event",
+        "description": {
+            "text": "Weekend market featuring exclusively Black-owned businesses",
+            "html": "Weekend market featuring exclusively Black-owned businesses"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2022-10-02T18:00:00",
+            "utc": "2022-10-02T17:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "294575482197",
+        "price_range": "£0 - £2.74",
+        "name": {
+            "text": "Black-Owned Hackney Market - Weekender"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/black-owned-hackney-market-weekender-tickets-294575482197",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "87518089"
+        },
+        "summary": "Weekend market featuring exclusively Black-owned businesses",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "174658679",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2022-03-10T15:10:12Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 4,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F283558369%2F307483646561%2F1%2Foriginal.20220512-141521?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C201%2C4928%2C2464&s=62817d0202ec05275460874300bf2e3e",
+            "edge_color": "#675643"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "306455194737",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.00",
+                "value": 200,
+                "display": "2.00 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "2 GBP",
+                "value": 200
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Fashion",
+            "name": "Fashion & Beauty",
+            "short_name": "Fashion",
+            "name_localized": "Fashion & Beauty",
+            "id": "106"
+        },
+        "venue_id": "89843039",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2022-05-28T11:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2022-05-28T12:00:00",
+            "formatted_time": "12:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "283558369",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "started",
+        "_type": "event",
+        "description": {
+            "text": "Wasted Chic returns to Bohemia Place Market to bring you a seriously chic fashion market to the centre of Hackney.",
+            "html": "Wasted Chic returns to Bohemia Place Market to bring you a seriously chic fashion market to the centre of Hackney."
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2022-08-14T18:00:00",
+            "utc": "2022-08-14T17:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "306455194737",
+        "price_range": "£0 - £2",
+        "name": {
+            "text": "Wasted Chic Fashion & Creatives Market"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/wasted-chic-fashion-creatives-market-tickets-306455194737",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "89843039"
+        },
+        "summary": "Wasted Chic returns to Bohemia Place Market to bring you a seriously chic fashion market to the centre of Hackney.",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "178179329",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "106",
+        "survey_type": "direct",
+        "published": "2022-03-25T17:16:10Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 5,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F274098629%2F307483646561%2F1%2Foriginal.20220427-123027?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C567%2C6000%2C3000&s=a8e29443c1491f7d20ac3ca89066d883",
+            "edge_color": "#4a4246"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "328792827197",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.00",
+                "value": 200,
+                "display": "2.00 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "2 GBP",
+                "value": 200
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Fashion",
+            "name": "Fashion & Beauty",
+            "short_name": "Fashion",
+            "name_localized": "Fashion & Beauty",
+            "id": "106"
+        },
+        "venue_id": "94560809",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2022-07-02T11:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2022-07-02T12:00:00",
+            "formatted_time": "12:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "274098629",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "started",
+        "_type": "event",
+        "description": {
+            "text": "Urban Makers takes over Bohemia Place during two weekends this summer!",
+            "html": "Urban Makers takes over Bohemia Place during two weekends this summer!"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2022-09-04T18:00:00",
+            "utc": "2022-09-04T17:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "328792827197",
+        "price_range": "£0 - £2",
+        "name": {
+            "text": "Urban Makers Market"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/urban-makers-market-tickets-328792827197",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "94560809"
+        },
+        "summary": "Urban Makers takes over Bohemia Place during two weekends this summer!",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "185149769",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "106",
+        "survey_type": "direct",
+        "published": "2022-04-27T12:31:15Z"
+    },
+    {
+        "locale": "en_GB",
+        "subcategory_id": "3015",
+        "rank": 6,
+        "currency": "GBP",
+        "date_header": "Next Month",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F314725139%2F307483646561%2F1%2Foriginal.20220707-121825?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C635%2C4582%2C2291&s=711204361a973b59abe72f1cd13a13a7",
+            "edge_color": "#ada9a6"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "381014212767",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "is_free": true,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Music",
+            "name": "Music",
+            "short_name": "Music",
+            "name_localized": "Music",
+            "id": "103"
+        },
+        "venue_id": "104536219",
+        "user_id": "307483646561",
+        "source": "coyote",
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "314725139",
+        "start": {
+            "utc": "2022-08-06T11:00:00Z",
+            "date_header": "Next Month",
+            "timezone": "Europe/London",
+            "local": "2022-08-06T12:00:00",
+            "formatted_time": "12:00"
+        },
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "live",
+        "_type": "event",
+        "description": {
+            "text": "Hackney Reggae Festival is a celebration of music, food and culture in the heart of Hackney!",
+            "html": "Hackney Reggae Festival is a celebration of music, food and culture in the heart of Hackney!"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": true,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2022-08-07T20:00:00",
+            "utc": "2022-08-07T19:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "381014212767",
+        "price_range": "Free",
+        "name": {
+            "text": "Hackney Reggae Festival"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/hackney-reggae-festival-tickets-381014212767",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "47369852983",
+            "id": "104536219"
+        },
+        "summary": "Hackney Reggae Festival is a celebration of music, food and culture in the heart of Hackney!",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "199393389",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "103",
+        "survey_type": "direct",
+        "published": "2022-07-07T13:50:52Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 0,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F191350039%2F307483646561%2F1%2Foriginal.20211124-124519?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C377%2C1280%2C640&s=a0067226b1dc55f807d4fbbd219402f7",
+            "edge_color": "#9e8a77"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "216907334677",
+        "ticket_availability": {
+            "quantity_sold_add_on": 0,
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "28 GBP",
+                "value": 2800
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "27.54",
+                "value": 2754,
+                "display": "27.54 GBP"
+            },
+            "num_ticket_classes": 1,
+            "has_available_hidden_tickets": false,
+            "end_sales_date": {
+                "timezone": "Europe/London",
+                "local": "2021-12-16T17:00:00",
+                "utc": "2021-12-16T17:00:00Z"
+            },
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "27.54",
+                "value": 2754,
+                "display": "27.54 GBP"
+            },
+            "is_free": false,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "28 GBP",
+                "value": 2800
+            },
+            "is_hold_unavailable": false,
+            "waitlist_enabled": false,
+            "has_available_tickets": false,
+            "common_sales_end_date": null,
+            "is_sold_out": true,
+            "waitlist_available": false
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Home & Lifestyle",
+            "name": "Home & Lifestyle",
+            "short_name": "Home & Lifestyle",
+            "name_localized": "Home & Lifestyle",
+            "id": "117"
+        },
+        "venue_id": "74642809",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2021-12-18T11:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-12-18T11:00:00",
+            "formatted_time": "11:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "191350039",
+        "source": "coyote",
+        "listed": true,
+        "is_series": false,
+        "hide_end_date": true,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "Come and enjoy the therapeutic process of making your own Christmas Candle with Danielle, owner of London Soy Candle Brand Brûler Candles.",
+            "html": "Come and enjoy the therapeutic process of making your own Christmas Candle with Danielle, owner of London Soy Candle Brand Brûler Candles."
+        },
+        "format": {
+            "short_name_localized": "Course",
+            "name": "Class, Training, or Workshop",
+            "short_name": "Class",
+            "name_localized": "Course, Training or Workshop",
+            "schema_url": "https://schema.org/EducationEvent",
+            "id": "9"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": false,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-12-18T12:00:00",
+            "utc": "2021-12-18T12:00:00Z"
+        },
+        "format_id": "9",
+        "tld": ".co.uk",
+        "price_range": "£27.54",
+        "name": {
+            "text": "Festive Workshop - Christmas Candle Making"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/festive-workshop-christmas-candle-making-tickets-216907334677",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "The Hackney Social",
+            "longitude": "-0.05351110000000001",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05351110000000001",
+                "localized_address_display": "Unit 11 Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Unit 11 Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54754579999999",
+                "localized_multi_line_address_display": [
+                    "Unit 11 Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54754579999999",
+            "organizer_id": "36904555133",
+            "google_place_id": "ChIJsxLVs8YddkgRt53iKju5J9o",
+            "id": "74642809"
+        },
+        "summary": "Come and enjoy the therapeutic process of making your own Christmas Candle with Danielle, owner of London Soy Candle Brand Brûler Candles.",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "153665119",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "117",
+        "survey_type": "direct",
+        "published": "2021-11-24T12:53:02Z"
+    },
+    {
+        "locale": "en_GB",
+        "subcategory_id": "19003",
+        "rank": 1,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F193254459%2F307483646561%2F1%2Foriginal.20211129-151227?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C168%2C994%2C497&s=ec7382d928b0c8edbf24325d95fa0f4f",
+            "edge_color": "#979184"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "219200995077",
+        "ticket_availability": {
+            "quantity_sold_add_on": 0,
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "22 GBP",
+                "value": 2200
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "22.15",
+                "value": 2215,
+                "display": "22.15 GBP"
+            },
+            "num_ticket_classes": 1,
+            "has_available_hidden_tickets": false,
+            "end_sales_date": {
+                "timezone": "Europe/London",
+                "local": "2021-12-12T11:00:00",
+                "utc": "2021-12-12T11:00:00Z"
+            },
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "22.15",
+                "value": 2215,
+                "display": "22.15 GBP"
+            },
+            "is_free": false,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "22 GBP",
+                "value": 2200
+            },
+            "is_hold_unavailable": false,
+            "waitlist_enabled": false,
+            "has_available_tickets": false,
+            "common_sales_end_date": null,
+            "is_sold_out": true,
+            "waitlist_available": false
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Hobbies",
+            "name": "Hobbies & Special Interest",
+            "short_name": "Hobbies",
+            "name_localized": "Hobbies & Special Interests",
+            "id": "119"
+        },
+        "venue_id": "75121739",
+        "user_id": "307483646561",
+        "source": "coyote",
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "193254459",
+        "start": {
+            "utc": "2021-12-12T11:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-12-12T11:00:00",
+            "formatted_time": "11:00"
+        },
+        "listed": true,
+        "is_series": false,
+        "hide_end_date": false,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "Learn to make your own Christmas decorations with Holmbush Flowers ",
+            "html": "Learn to make your own Christmas decorations with Holmbush Flowers "
+        },
+        "format": {
+            "short_name_localized": "Course",
+            "name": "Class, Training, or Workshop",
+            "short_name": "Class",
+            "name_localized": "Course, Training or Workshop",
+            "schema_url": "https://schema.org/EducationEvent",
+            "id": "9"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": false,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-12-12T13:00:00",
+            "utc": "2021-12-12T13:00:00Z"
+        },
+        "format_id": "9",
+        "tld": ".co.uk",
+        "price_range": "£22.15",
+        "name": {
+            "text": "Festive Workshop - Wreath & Garland Making"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/festive-workshop-wreath-garland-making-tickets-219200995077",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "The Hackney Social",
+            "longitude": "-0.05351110000000001",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05351110000000001",
+                "localized_address_display": "Unit 11 Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Unit 11 Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54754579999999",
+                "localized_multi_line_address_display": [
+                    "Unit 11 Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54754579999999",
+            "organizer_id": "36904555133",
+            "google_place_id": "ChIJsxLVs8YddkgRt53iKju5J9o",
+            "id": "75121739"
+        },
+        "summary": "Learn to make your own Christmas decorations with Holmbush Flowers ",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "154375719",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "119",
+        "survey_type": "direct",
+        "published": "2021-11-29T15:21:23Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 2,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F182070039%2F307483646561%2F1%2Foriginal.20211108-154547?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C336%2C4582%2C2291&s=6afc89040706e54f2d72096db54d008a",
+            "edge_color": "#998a81"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "207262657187",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.74",
+                "value": 274,
+                "display": "2.74 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "3 GBP",
+                "value": 300
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "72554909",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2021-11-27T11:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-11-27T11:00:00",
+            "formatted_time": "11:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "182070039",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "Black Owned Hackney Market is getting Christmassy!",
+            "html": "Black Owned Hackney Market is getting Christmassy!"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-11-28T18:00:00",
+            "utc": "2021-11-28T18:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "207262657187",
+        "price_range": "£0 - £2.74",
+        "name": {
+            "text": "Black Owned Christmas Market"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/black-owned-christmas-market-tickets-207262657187",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "72554909"
+        },
+        "summary": "Black Owned Hackney Market is getting Christmassy!",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "150464949",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2021-11-08T16:48:59Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 3,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F192369679%2F307483646561%2F1%2Foriginal.20211126-173140?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=9594273faf78786a8db903b0696a41b0",
+            "edge_color": "#4f9da1"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "199673959187",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "70058149",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2021-11-26T16:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-11-26T16:00:00",
+            "formatted_time": "16:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "192369679",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "Invite a little of that festive spirit into your weekends with our annual Hackney Christmas Market!",
+            "html": "Invite a little of that festive spirit into your weekends with our annual Hackney Christmas Market!"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-12-19T18:00:00",
+            "utc": "2021-12-19T18:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "199673959187",
+        "price_range": "",
+        "name": {
+            "text": "The Hackney Christmas Market"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/the-hackney-christmas-market-tickets-199673959187",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "70058149"
+        },
+        "summary": "Invite a little of that festive spirit into your weekends with our annual Hackney Christmas Market!",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "148764839",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2021-10-27T09:35:49Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 4,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F165029469%2F307483646561%2F1%2Foriginal.20210325-155849?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C244%2C2048%2C1024&s=5c17fe9d854b5fabe0bad2b36e0c7984",
+            "edge_color": "#2a2524"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "189854679457",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.00",
+                "value": 200,
+                "display": "2.00 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "2 GBP",
+                "value": 200
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "67216829",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2021-10-15T17:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-10-15T18:00:00",
+            "formatted_time": "18:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "165029469",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "Black Owned Friday nights are getting Christmassy ",
+            "html": "Black Owned Friday nights are getting Christmassy "
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-12-03T22:00:00",
+            "utc": "2021-12-03T22:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "189854679457",
+        "price_range": "£0 - £2",
+        "name": {
+            "text": "Black Owned Christmas Night Market"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/black-owned-christmas-night-market-tickets-189854679457",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "20229719672",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "67216829"
+        },
+        "summary": "Black Owned Friday nights are getting Christmassy ",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "143804159",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2021-10-11T17:30:32Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 5,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F145415027%2F307483646561%2F1%2Foriginal.20210726-123857?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C107%2C1280%2C640&s=d4a4d822f12917c27b0fdf3c3b4d4acc",
+            "edge_color": "#58534b"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "168247295189",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.74",
+                "value": 274,
+                "display": "2.74 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "3 GBP",
+                "value": 300
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "62893243",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2021-08-30T12:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-08-30T13:00:00",
+            "formatted_time": "13:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "145415027",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "Join us for Black-Owned Hackney Special Carnival Edition!",
+            "html": "Join us for Black-Owned Hackney Special Carnival Edition!"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-08-30T20:00:00",
+            "utc": "2021-08-30T19:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "168247295189",
+        "price_range": "£0 - £2.74",
+        "name": {
+            "text": "Black Owned Hackney Carnival Edition"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/black-owned-hackney-carnival-edition-tickets-168247295189",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "62893243"
+        },
+        "summary": "Join us for Black-Owned Hackney Special Carnival Edition!",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "136792743",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2021-08-24T11:11:02Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 6,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F138139023%2F307483646561%2F1%2Foriginal.20210609-123624?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C22%2C1920%2C960&s=09abe18ab06e794275adccce00dcc233",
+            "edge_color": "#cf93a1"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "158709575613",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "2.00",
+                "value": 200,
+                "display": "2.00 GBP"
+            },
+            "num_ticket_classes": 2,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "2 GBP",
+                "value": 200
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Fashion",
+            "name": "Fashion & Beauty",
+            "short_name": "Fashion",
+            "name_localized": "Fashion & Beauty",
+            "id": "106"
+        },
+        "venue_id": "60908615",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2021-08-28T10:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-08-28T11:00:00",
+            "formatted_time": "11:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "138139023",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "Wavey Garms  Market in the heart of Hackney",
+            "html": "Wavey Garms  Market in the heart of Hackney"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-08-29T19:00:00",
+            "utc": "2021-08-29T18:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "158709575613",
+        "price_range": "£0 - £2",
+        "name": {
+            "text": "The Wavey Garms Open Air Market"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/the-wavey-garms-open-air-market-tickets-158709575613",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place Markets",
+            "longitude": "-0.05326369999999999",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05326369999999999",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJwY_nHMYddkgRe2ZoDrF9HhQ",
+            "id": "60908615"
+        },
+        "summary": "Wavey Garms  Market in the heart of Hackney",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "133971815",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "106",
+        "survey_type": "direct",
+        "published": "2021-06-09T13:21:57Z"
+    },
+    {
+        "locale": "en_GB",
+        "subcategory_id": "10003",
+        "rank": 7,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F142901085%2F307483646561%2F1%2Foriginal.20210728-102515?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1920%2C960&s=e2a175d12d1f9aa3a575739ac09352a5",
+            "edge_color": "#e67c3a"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "160784333269",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "44 GBP",
+                "value": 4400
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "162.29",
+                "value": 16229,
+                "display": "162.29 GBP"
+            },
+            "num_ticket_classes": 6,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "162 GBP",
+                "value": 16200
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "43.71",
+                "value": 4371,
+                "display": "43.71 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "61429277",
+        "user_id": "307483646561",
+        "source": "coyote",
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "142901085",
+        "start": {
+            "utc": "2021-08-07T10:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-08-07T11:00:00",
+            "formatted_time": "11:00"
+        },
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "Join us for a very special Hackney Social brunch in collaboration with London Jerk Fest!✨",
+            "html": "Join us for a very special Hackney Social brunch in collaboration with London Jerk Fest!✨"
+        },
+        "format": {
+            "short_name_localized": "Other",
+            "name": "Other",
+            "short_name": "Other",
+            "name_localized": "Other",
+            "schema_url": "https://schema.org/Event",
+            "id": "100"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-08-08T15:00:00",
+            "utc": "2021-08-08T14:00:00Z"
+        },
+        "format_id": "100",
+        "tld": ".co.uk",
+        "series_id": "160784333269",
+        "price_range": "£43.71 - £162.29",
+        "name": {
+            "text": "London Jerk Fest Brunch Club"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/london-jerk-fest-brunch-club-tickets-160784333269",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "The Hackney Social",
+            "longitude": "-0.05351110000000001",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.05351110000000001",
+                "localized_address_display": "Unit 11 Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Unit 11 Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54754579999999",
+                "localized_multi_line_address_display": [
+                    "Unit 11 Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54754579999999",
+            "organizer_id": "33083548011",
+            "google_place_id": "ChIJsxLVs8YddkgRt53iKju5J9o",
+            "id": "61429277"
+        },
+        "summary": "Join us for a very special Hackney Social brunch in collaboration with London Jerk Fest!✨",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "134571867",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "direct",
+        "published": "2021-06-22T13:38:45Z"
+    },
+    {
+        "locale": "en_GB",
+        "rank": 8,
+        "currency": "GBP",
+        "date_header": "Today",
+        "logo": {
+            "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F127226257%2F307483646561%2F1%2Foriginal.20210225-153835?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C155%2C1992%2C996&s=049c46b3f16cfcbca36e035755e2d74b",
+            "edge_color": "#c8c9cd"
+        },
+        "organizer": {
+            "website": "http://bohemiaplacemarket.com",
+            "organization_id": "307483646561",
+            "_type": "organizer",
+            "user_id": "307483646561",
+            "short_name": "bohemiaplacemarket",
+            "url": "https://www.eventbrite.co.uk/o/bohemia-place-market-20229697518",
+            "id": "20229697518",
+            "logo_id": "109385741",
+            "facebook": "BohemiaPlaceMarket",
+            "disable_marketing_opt_in": false,
+            "vanity_url": "http://bohemiaplacemarket.eventbrite.com",
+            "name": "Bohemia Place Market"
+        },
+        "id": "143098514509",
+        "ticket_availability": {
+            "minimum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "0 GBP",
+                "value": 0
+            },
+            "maximum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "5.98",
+                "value": 598,
+                "display": "5.98 GBP"
+            },
+            "num_ticket_classes": 3,
+            "maximum_ticket_price_rounded": {
+                "currency": "GBP",
+                "display": "6 GBP",
+                "value": 600
+            },
+            "is_free": false,
+            "minimum_ticket_price": {
+                "currency": "GBP",
+                "major_value": "0.00",
+                "value": 0,
+                "display": "0.00 GBP"
+            },
+            "common_sales_end_date": null
+        },
+        "category": {
+            "subcategories": [],
+            "short_name_localized": "Food & Drink",
+            "name": "Food & Drink",
+            "short_name": "Food & Drink",
+            "name_localized": "Food & Drink",
+            "id": "110"
+        },
+        "venue_id": "57400829",
+        "user_id": "307483646561",
+        "start": {
+            "utc": "2021-08-07T10:00:00Z",
+            "date_header": "Today",
+            "timezone": "Europe/London",
+            "local": "2021-08-07T11:00:00",
+            "formatted_time": "11:00"
+        },
+        "show_seatmap_thumbnail": false,
+        "inventory_type": "limited",
+        "show_colors_in_seatmap_thumbnail": false,
+        "logo_id": "127226257",
+        "source": "coyote",
+        "listed": true,
+        "is_series": true,
+        "hide_end_date": false,
+        "status": "completed",
+        "_type": "event",
+        "description": {
+            "text": "The London Jerk Festival 2021",
+            "html": "The London Jerk Festival 2021"
+        },
+        "format": {
+            "short_name_localized": "Festival",
+            "name": "Festival or Fair",
+            "short_name": "Festival",
+            "name_localized": "Festival or Fair",
+            "schema_url": "https://schema.org/Festival",
+            "id": "5"
+        },
+        "show_pick_a_seat": false,
+        "is_free": false,
+        "organization_id": "307483646561",
+        "is_externally_ticketed": false,
+        "is_protected_event": false,
+        "is_series_parent": true,
+        "end": {
+            "timezone": "Europe/London",
+            "local": "2021-08-08T19:00:00",
+            "utc": "2021-08-08T18:00:00Z"
+        },
+        "format_id": "5",
+        "tld": ".co.uk",
+        "series_id": "143098514509",
+        "price_range": "£0 - £5.98",
+        "name": {
+            "text": "London Jerk Fest 2021"
+        },
+        "language": "en-gb",
+        "url": "https://www.eventbrite.co.uk/e/london-jerk-fest-2021-tickets-143098514509",
+        "venue": {
+            "user_id": "307483646561",
+            "name": "Bohemia Place",
+            "longitude": "-0.0532637",
+            "address": {
+                "city": "London",
+                "country": "GB",
+                "region": "England",
+                "longitude": "-0.0532637",
+                "localized_address_display": "Bohemia Place, London, E8 1DU",
+                "postal_code": "E8 1DU",
+                "address_1": "Bohemia Place",
+                "address_2": "",
+                "latitude": "51.54743140000001",
+                "localized_multi_line_address_display": [
+                    "Bohemia Place",
+                    "London",
+                    "E8 1DU"
+                ],
+                "localized_area_display": "London"
+            },
+            "latitude": "51.54743140000001",
+            "organizer_id": "20229719672",
+            "google_place_id": "ChIJjWYyWvscdkgREjmG5ghqvrU",
+            "id": "57400829"
+        },
+        "summary": "The London Jerk Festival 2021",
+        "is_locked": false,
+        "shareable": true,
+        "style_id": "129414783",
+        "online_event": false,
+        "organizer_id": "20229697518",
+        "category_id": "110",
+        "survey_type": "attendee",
+        "published": "2021-02-25T15:22:31Z"
+    }
+]
