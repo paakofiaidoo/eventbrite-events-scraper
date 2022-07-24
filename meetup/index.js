@@ -90,7 +90,7 @@ function setVenues(events) {
         });
 }
 
-let organizations = JSON.parse(fs.readFileSync("gaming-organizations.json", "utf8"));
+let organizations = JSON.parse(fs.readFileSync("./meetup/orgs/gaming-organizations.json", "utf8"));
 
 getData(
     organizations.map((organization) => {

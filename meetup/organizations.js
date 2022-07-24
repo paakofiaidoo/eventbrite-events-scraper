@@ -42,7 +42,7 @@ let cat = [
     },
     {
         name: "Film",
-        queries: ["Film", "TV", "video production", "Augmented Reality", "AR"],
+        queries: ["Film", "TV", "video production", "Augmented Reality"],
     },
 ];
 // @ts-ignore
