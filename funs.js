@@ -32,8 +32,20 @@ function removeNullProperties(obj) {
     });
     return obj;
 }
+const getMonths = (start) => {
+    let months = [];
+    let startDate = new Date(start);
+    let endDate = new Date();
+    let currentDate = startDate;
+    while (currentDate <= endDate) {
+        months.push(new Date(currentDate));
+        currentDate.setMonth(currentDate.getMonth() + 1);
+    }
+    return months.length;
+};
 module.exports = {
     removeDuplicates,
     removeNullProperties,
-    removeDuplicatesByID
+    removeDuplicatesByID,
+    getMonths,
 };

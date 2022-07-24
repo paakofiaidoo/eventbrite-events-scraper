@@ -1,101 +1,84 @@
 const axios = require("axios");
-const { parse } = require("json2csv");
 const fs = require("fs");
 const getEvent = require("./event");
-const { trace } = require("console");
-fs.appendFileSync("Gaming(meetup).json", "[");
-let future = [],
-    past = [];
-let track = [];
-const getData = async (organization_id) => {
-    let pastURL = `https://api.meetup.com/${organization_id}/events?desc=true&scroll=since%3A2022-07-23T09%3A00%3A00.000-07%3A00&has_ended=true&page=50&status=upcoming%2Cpast%2Ccancelled`;
-    let FutureURL = `https://api.meetup.com/${organization_id}/events?desc=false&scroll=since%3A2022-07-23T09%3A00%3A00.000-07%3A00&has_ended=false&page=50&status=upcoming%2Ccancelled`;
+const { getMonths } = require("../funs");
 
+fs.writeFileSync("Gaming(meetup).json", "[");
+
+const getData = async (organizations) => {
     // @ts-ignore
     // get the data from the meetup api
+
+    function fixedEncodeURI(str) {
+        return encodeURI(decodeURIComponent(str));
+    }
     let data = await axios
         // @ts-ignore
-        .all([axios(FutureURL), axios(pastURL)])
+        .all([
+            ...organizations.map((organization_id) =>
+                // @ts-ignore
+                axios(fixedEncodeURI(`https://api.meetup.com/${organization_id}/events?desc=true&scroll=since:2022-07-24T09:00:00.000-07:00&has_ended=true&page=50&status=upcoming,past,cancelled`))
+            ),
+            ...organizations.map((organization_id) =>
+                // @ts-ignore
+                axios(fixedEncodeURI(`https://api.meetup.com/${organization_id}/events?desc=false&scroll=since:2022-07-23T09:00:00.000-07:00&has_ended=false&page=50&status=upcoming,cancelled`))
+            ),
+        ])
         .then((res) => {
             // push the data to the future array
-            future.push(...res[0].data);
-            res[0].data.forEach((event) => {
-                getEvent(event.id);
+            let allEvents = [];
+            // console.log(res);
+            res.map(({ data }) => {
+                console.log(data);
+                allEvents.push(...data);
+                return data;
             });
-            past.push(
-                // push the data to the past array
-                ...res[1].data.filter((event) => {
+            setVenues(
+                allEvents.filter((event) => {
                     // filter out events that are 12 months or more in the past
                     return getMonths(event.local_date) <= 12;
                 })
             );
-            // @ts-ignore
-            setVenues(future, "future");
-            setVenues(past, "past");
         })
-
         .catch((error) => {
-            console.log("Failed to fetch page: ", error);
+            if (error.response) {
+                console.log(error.response.data);
+                console.log(error.response.status);
+                console.log(error.response.headers);
+            } else if (error.request) {
+                console.log(error.request);
+            } else {
+                console.log("Error", error.message);
+            }
         });
     return data;
 };
 
 //get the difference in months between two dates
-const getMonths = (start) => {
-    let months = [];
-    let startDate = new Date(start);
-    let endDate = new Date();
-    let currentDate = startDate;
-    while (currentDate <= endDate) {
-        months.push(new Date(currentDate));
-        currentDate.setMonth(currentDate.getMonth() + 1);
-    }
-    return months.length;
-};
 
 // insect the id here
-getData("the-london-warhammer-gaming-guild");
 
-const createFile = () => {
-   
-};
-
-// headers for the csv file
-//     const fields = ["id", "group.id", "name", "local_date", "group.localized_location", "group.lon", "group.lat", "description", "link", "venue.lng", "venue.lat"];
-//     const opts = { fields };
-//     //create a csv file with the future events
-//     let futureCSV = parse(future, opts);
-//     fs.writeFileSync(`meetup-Future(organization=${future[0].group.name}).csv`, futureCSV);
-//     console.log(future.length);
-
-//     // create a csv file with the past events
-//     let pastCSV = parse(past, opts);
-//     fs.writeFileSync(`meetup-Past(organization=${past[0].group.name}).csv`, pastCSV);
-//     console.log(past.length);
-// };
-
-function setVenues(list, type) {
+function setVenues(events) {
+    console.log(events);
     axios
         // @ts-ignore
         .all(
-            list.map((event) => {
-                return getEvent(event.id);
+            events.map((event) => {
+                return getEvent(event.id).catch((error) => {
+                    console.log("Failed to fetch page: ", error.data);
+                });
             })
         )
         .then((response) => {
-            return response.map((event, i) => {
-                if (type === "past") {
-                    past[i].venue = event.data.data.event.venue;
-                } else {
-                    future[i].venue = event.data.data.event.venue;
-                }
+            response.map((event, i) => {
+                events[i].venue = event.data.data.event.venue;
             });
+
+            return events;
         })
-        .then(() => {
-            createFile();
-            let events = [...future, ...past];
+        .then((events) => {
             events.map((event, i) => {
-                if (track.length === 0 && i === events.length - 1) {
+                if (i === events.length - 1) {
                     fs.appendFileSync("Gaming(meetup).json", JSON.stringify(event) + "]");
                 } else {
                     fs.appendFileSync("Gaming(meetup).json", JSON.stringify(event) + ",");
@@ -109,9 +92,19 @@ function setVenues(list, type) {
 
 let organizations = JSON.parse(fs.readFileSync("gaming-organizations.json", "utf8"));
 
-organizations.forEach((organization) => {
-    // track.push(organization.id);
-    // getData(1, organization, "future");
-    // getData(organization.link.split("https://www.meetup.com/")[1]);
-    console.log(organization.link.split("https://www.meetup.com/")[1]);
+getData(
+    organizations.map((organization) => {
+        return organization.link.split("https://www.meetup.com/")[1];
+    })
+    // ["pregnant-new-mums-group"]
+).catch((error) => {
+    console.log(error);
 });
+// console.log(
+//     organizations.map((organization) => {
+//         if (organization.link.split("https://www.meetup.com/")[1].split(" ").length !== 1) {
+//             console.log(organization.link.split("https://www.meetup.com/")[1]);
+//         }
+//         return organization.link.split("https://www.meetup.com/")[1];
+//     })
+// );
