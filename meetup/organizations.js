@@ -15,7 +15,7 @@ let cat = [
     {
         id: 521,
         name: "Arts",
-        queries: ["Art", "Theatre", "arts festival", "community arts"],
+        queries: ["Arts", "Theatre", "arts festival", "community arts"],
     },
     {
         id: 395,
