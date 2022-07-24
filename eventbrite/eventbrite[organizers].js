@@ -141,6 +141,9 @@ const getEventsData = (event) => {
         end: null,
         format: null,
         start: null,
+        facebook_user_id:null,
+        facebook_event_id:null,
+        facebook_publish_date:null,
         format: event.format ? (event.format.name ? event.format.name : event.format) : null,
         category: event.category ? (event.category.name ? {
             name: event.category.name,
