@@ -5,6 +5,8 @@
   },
   "scripts": {
     "get-event": "node ./eventbrite/eventbrite.js",
-    "get-organization": "node ./eventbrite/eventbrite[organizers].js"
+    "get-organization": "node ./eventbrite/eventbrite[organizers].js",
+    "meetup-get-org": "node ./meetup/organizations.js",
+    "meetup-get-events": "node ./meetup/index.js"
   }
 }
