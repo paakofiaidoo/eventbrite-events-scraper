@@ -11,13 +11,12 @@ const { getMonths } = require("../funs");
 // PR / media*
 //*
 
-let fileName = "./meetup/data/events/gaming(meetup).json";
+let fileName = "./meetup/data/events/witting(meetup).json";
 
 const err = (error) => {
     if (error.response) {
         console.log(error.response.data);
-        console.log(error.response);
-        console.log(error.response.headers);
+        // console.log(error.response.headers);
     }
     // else if (error.request) {
     //     console.log(error.request);
@@ -26,24 +25,26 @@ const err = (error) => {
         console.log("Error", error.message);
     }
 };
-const getData = async (organizations) => {
+const getData = async (organization_id) => {
     // @ts-ignore
     // get the data from the meetup api
 
     function fixedEncodeURI(str) {
+        // console.log(encodeURI(decodeURIComponent(str)));
         return encodeURI(decodeURIComponent(str));
     }
     let data = await axios
         // @ts-ignore
         .all([
-            ...organizations.map((organization_id) =>
-                // @ts-ignore
-                axios(fixedEncodeURI(`https://api.meetup.com/${organization_id}/events?desc=true&scroll=since:2022-07-24T09:00:00.000-07:00&has_ended=true&page=50&status=upcoming,past,cancelled`))
-            ),
-            ...organizations.map((organization_id) =>
-                // @ts-ignore
-                axios(fixedEncodeURI(`https://api.meetup.com/${organization_id}/events?desc=false&scroll=since:2022-07-23T09:00:00.000-07:00&has_ended=false&page=50&status=upcoming,cancelled`))
-            ),
+            // @ts-ignore
+            axios(fixedEncodeURI(`https://api.meetup.com/${organization_id}/events?desc=true&scroll=since:2022-07-24T09:00:00.000-07:00&has_ended=true&page=50&status=upcoming,past,cancelled`), {
+                timeout: 10000,
+                xsrfCookieName: null,
+                xsrfHeaderName: null,
+                headers: null,
+            }),
+            // @ts-ignore
+            axios(fixedEncodeURI(`https://api.meetup.com/${organization_id}/events?desc=false&scroll=since:2022-07-23T09:00:00.000-07:00&has_ended=false&page=50&status=upcoming,cancelled`)),
         ])
         .then((res) => {
             // push the data to the future array
@@ -54,12 +55,12 @@ const getData = async (organizations) => {
                 return data;
             });
             fs.appendFileSync(fileName, JSON.stringify(allEvents));
-            // setVenues(
-            //     allEvents.filter((event) => {
-            //         // filter out events that are 12 months or more in the past
-            //         return getMonths(event.local_date) <= 12;
-            //     })
-            // );
+            setVenues(
+                allEvents.filter((event) => {
+                    // filter out events that are 12 months or more in the past
+                    return getMonths(event.local_date) <= 12;
+                })
+            );
         })
         .catch(err);
     return data;
@@ -79,19 +80,32 @@ function setVenues(events) {
             })
         )
         .then((response) => {
+            console.log(response.length);
             return response
-                .filter((event, i) => {
-                    return event && event.data && event.data.data && event.data.data.event.venue;
-                })
                 .map((event, i) => {
-                    event.venue = event.data.data.event.venue;
+                    let temp;
+                    if (event && event.data && event.data.data && event.data.data.event.venue) {
+                        temp = {
+                            ...events[i],
+                            venue: event.data.data.event.venue,
+                        };
+                    } else {
+                        temp = false;
+                    }
+                    return temp;
+                })
+                .filter((event, i) => {
+                    if (!event) {
+                        console.log("hi");
+                    }
                     return event;
                 });
         })
         .then((events) => {
+            console.log(events.length);
             if (events.length > 0) {
                 fs.writeFileSync(fileName, "[");
-                console.log(events.length,events[0]);
+                console.log(events.length, events[0]);
                 events.map((event, i) => {
                     if (i === events.length - 1) {
                         fs.appendFileSync(fileName, JSON.stringify(event) + "]");
@@ -104,14 +118,12 @@ function setVenues(events) {
         .catch(err);
 }
 
-let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/gaming-organizations.json", "utf8"));
+let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/writing-organizations.json", "utf8"));
 
-getData(
-    organizations.splice(0, 5).map((organization) => {
-        return organization.link.split("https://www.meetup.com/")[1];
-    })
-    // ["pregnant-new-mums-group"]
-).catch(err);
+organizations.splice(0, 5).map((organization) => {
+    return getData(organization.link.split("https://www.meetup.com/")[1]).catch(err);
+});
+// ["pregnant-new-mums-group"]
 // console.log(
 //     organizations.map((organization) => {
 //         if (organization.link.split("https://www.meetup.com/")[1].split(" ").length !== 1) {

@@ -28,6 +28,7 @@ const getEvent = (eventId) => {
         headers: {
             "Content-Type": "application/json",
         },
+        timeout: 1000000,
         data: data,
     };
     // @ts-ignore
