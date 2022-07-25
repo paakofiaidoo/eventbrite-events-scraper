@@ -11,7 +11,7 @@ const { getMonths } = require("../funs");
 // PR / media*
 //*
 
-let fileName = "./meetup/data/events/Arts(meetup).json";
+let fileName = "./meetup/data/events/gaming(meetup).json";
 fs.writeFileSync(fileName, "[");
 const err = (error) => {
     if (error.response) {
@@ -48,7 +48,6 @@ const getData = async (organizations) => {
             let allEvents = [];
             // console.log(res);
             res.map(({ data }) => {
-                console.log(data);
                 allEvents.push(...data);
                 return data;
             });
@@ -68,21 +67,20 @@ const getData = async (organizations) => {
 // insect the id here
 
 function setVenues(events) {
-    console.log(events);
+    // console.log(events);
     axios
         // @ts-ignore
         .all(
             events.map((event) => {
-                return getEvent(event.id).catch((error) => {
-                    console.log("Failed to fetch page: ", error.data);
-                });
+                return getEvent(event.id).catch(err);
             })
         )
         .then((response) => {
-            response.map((event, i) => {
+            response.filter((event)=>{
+                return !!event.data.data
+            }).map((event, i) => {
                 events[i].venue = event.data.data.event.venue;
             });
-
             return events;
         })
         .then((events) => {
@@ -97,7 +95,7 @@ function setVenues(events) {
         .catch(err);
 }
 
-let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/Arts-organizations.json", "utf8"));
+let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/gaming-organizations.json", "utf8"));
 
 getData(
     organizations.map((organization) => {
