@@ -54,7 +54,7 @@ const getData = async (organization_id) => {
                 allEvents.push(...data);
                 return data;
             });
-            fs.appendFileSync(fileName, JSON.stringify(allEvents));
+            // fs.appendFileSync(fileName, JSON.stringify(allEvents));
             setVenues(
                 allEvents.filter((event) => {
                     // filter out events that are 12 months or more in the past
@@ -104,7 +104,7 @@ function setVenues(events) {
         .then((events) => {
             console.log(events.length);
             if (events.length > 0) {
-                fs.writeFileSync(fileName, "[");
+                // fs.writeFileSync(fileName, "[");
                 console.log(events.length, events[0]);
                 events.map((event, i) => {
                     if (i === events.length - 1) {
@@ -120,7 +120,7 @@ function setVenues(events) {
 
 let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/writing-organizations.json", "utf8"));
 
-organizations.splice(0, 5).map((organization) => {
+organizations.splice(5, 10).map((organization) => {
     return getData(organization.link.split("https://www.meetup.com/")[1]).catch(err);
 });
 // ["pregnant-new-mums-group"]

@@ -53,13 +53,13 @@ const getData = async (organizations) => {
                 allEvents.push(...data);
                 return data;
             });
-            fs.appendFileSync(fileName, JSON.stringify(allEvents));
-            // setVenues(
-            //     allEvents.filter((event) => {
-            //         // filter out events that are 12 months or more in the past
-            //         return getMonths(event.local_date) <= 12;
-            //     })
-            // );
+            // fs.appendFileSync(fileName, JSON.stringify(allEvents));
+            setVenues(
+                allEvents.filter((event) => {
+                    // filter out events that are 12 months or more in the past
+                    return getMonths(event.local_date) <= 12;
+                })
+            );
         })
         .catch(err);
     return data;
@@ -78,20 +78,34 @@ function setVenues(events) {
                 return getEvent(event.id).catch(err);
             })
         )
+        
         .then((response) => {
+            console.log(response.length);
             return response
-                .filter((event, i) => {
-                    return event && event.data && event.data.data && event.data.data.event.venue;
-                })
                 .map((event, i) => {
-                    event.venue = event.data.data.event.venue;
+                    let temp;
+                    if (event && event.data && event.data.data && event.data.data.event.venue) {
+                        temp = {
+                            ...events[i],
+                            venue: event.data.data.event.venue,
+                        };
+                    } else {
+                        temp = false;
+                    }
+                    return temp;
+                })
+                .filter((event, i) => {
+                    if (!event) {
+                        console.log("hi");
+                    }
                     return event;
                 });
         })
         .then((events) => {
+            console.log(events.length);
             if (events.length > 0) {
-                fs.writeFileSync(fileName, "[");
-                console.log(events.length,events[0]);
+                // fs.writeFileSync(fileName, "[");
+                console.log(events.length, events[0]);
                 events.map((event, i) => {
                     if (i === events.length - 1) {
                         fs.appendFileSync(fileName, JSON.stringify(event) + "]");
