@@ -2,8 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 const { removeDuplicatesByID, removeNullProperties } = require("../funs");
 
-// @ts-ignore
-let topicCategoryId = "";
+
 // Gaming / games design / Serious or educational games*
 // Film / TV / video production / Augmented Reality*
 // Theatre / arts festival / community arts*

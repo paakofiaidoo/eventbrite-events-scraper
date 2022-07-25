@@ -3,8 +3,27 @@ const fs = require("fs");
 const getEvent = require("./event");
 const { getMonths } = require("../funs");
 
-fs.writeFileSync("Gaming(meetup).json", "[");
+// Gaming / games design / Serious or educational games*
+// Film / TV / video production / Augmented Reality*
+// Theatre / arts festival / community arts*
+// Music*
+// Publishing / creative writing /*
+// PR / media*
+//*
 
+let fileName = "./meetup/data/events/Arts(meetup).json";
+fs.writeFileSync(fileName, "[");
+const err = (error) => {
+    if (error.response) {
+        console.log(error.response.data);
+        console.log(error.response.status);
+        console.log(error.response.headers);
+    } else if (error.request) {
+        console.log(error.request);
+    } else {
+        console.log("Error", error.message);
+    }
+};
 const getData = async (organizations) => {
     // @ts-ignore
     // get the data from the meetup api
@@ -40,17 +59,7 @@ const getData = async (organizations) => {
                 })
             );
         })
-        .catch((error) => {
-            if (error.response) {
-                console.log(error.response.data);
-                console.log(error.response.status);
-                console.log(error.response.headers);
-            } else if (error.request) {
-                console.log(error.request);
-            } else {
-                console.log("Error", error.message);
-            }
-        });
+        .catch(err);
     return data;
 };
 
@@ -79,27 +88,23 @@ function setVenues(events) {
         .then((events) => {
             events.map((event, i) => {
                 if (i === events.length - 1) {
-                    fs.appendFileSync("Gaming(meetup).json", JSON.stringify(event) + "]");
+                    fs.appendFileSync(fileName, JSON.stringify(event) + "]");
                 } else {
-                    fs.appendFileSync("Gaming(meetup).json", JSON.stringify(event) + ",");
+                    fs.appendFileSync(fileName, JSON.stringify(event) + ",");
                 }
             });
         })
-        .catch((error) => {
-            console.log(error);
-        });
+        .catch(err);
 }
 
-let organizations = JSON.parse(fs.readFileSync("./meetup/orgs/gaming-organizations.json", "utf8"));
+let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/Arts-organizations.json", "utf8"));
 
 getData(
     organizations.map((organization) => {
         return organization.link.split("https://www.meetup.com/")[1];
     })
     // ["pregnant-new-mums-group"]
-).catch((error) => {
-    console.log(error);
-});
+).catch(err);
 // console.log(
 //     organizations.map((organization) => {
 //         if (organization.link.split("https://www.meetup.com/")[1].split(" ").length !== 1) {
