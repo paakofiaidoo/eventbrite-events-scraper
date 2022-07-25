@@ -107,11 +107,11 @@ function setVenues(events) {
                 // fs.writeFileSync(fileName, "[");
                 console.log(events.length, events[0]);
                 events.map((event, i) => {
-                    if (i === events.length - 1) {
-                        fs.appendFileSync(fileName, JSON.stringify(event) + "]");
-                    } else {
+                    // if (i === events.length - 1) {
+                        // fs.appendFileSync(fileName, JSON.stringify(event) + "]");
+                    // } else {
                         fs.appendFileSync(fileName, JSON.stringify(event) + ",");
-                    }
+                    // }
                 });
             }
         })
@@ -126,11 +126,6 @@ getData(
     })
     // ["pregnant-new-mums-group"]
 ).catch(err);
-// console.log(
-//     organizations.map((organization) => {
-//         if (organization.link.split("https://www.meetup.com/")[1].split(" ").length !== 1) {
-//             console.log(organization.link.split("https://www.meetup.com/")[1]);
-//         }
-//         return organization.link.split("https://www.meetup.com/")[1];
-//     })
-// );
+console.log(
+    organizations.length
+);
