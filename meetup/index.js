@@ -4,7 +4,7 @@ const getEvent = require("./event");
 const { getMonths } = require("../funs");
 
 // Gaming / games design / Serious or educational games*
-// Film / TV / video production / Augmented Reality*
+// *
 // Theatre / arts festival / community arts*
 // Music*
 // Publishing / creative writing /*
@@ -79,7 +79,10 @@ function setVenues(events) {
             response.filter((event)=>{
                 return !!event.data.data
             }).map((event, i) => {
-                events[i].venue = event.data.data.event.venue;
+                event.venue = event.data.data.event.venue;
+                return event;
+            }).filter((event)=>{
+                return !!event.venue.lat
             });
             return events;
         })

@@ -8,9 +8,24 @@ requirement : `node`
         
          npm i 
 
-- Run scrapper with
+- Run scrapper for events on eventbrite with
 
-        npm run get
+        npm run get-event
+
+
+- Run scrapper for organizations on eventbrite with
+
+        npm run get-organization
+
+
+- Run scrapper for events on meetup with
+
+        npm run meetup-get-events
+
+
+- Run scrapper for organizations on meetup with
+
+        npm run meetup-get-org
 
 
 
