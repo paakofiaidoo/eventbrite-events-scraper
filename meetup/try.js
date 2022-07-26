@@ -3,15 +3,10 @@ const fs = require("fs");
 const getEvent = require("./event");
 const { getMonths } = require("../funs");
 
-// Gaming / games design / Serious or educational games*
-// *
-// Theatre / arts festival / community arts*
-// Music*
-// Publishing / creative writing /*
-// PR / media*
-//*
 
-let fileName = "./meetup/data/events/witting(meetup).json";
+
+let file = "Arts";
+let fileName = `./meetup/data/events/${file}(meetup).json`;
 
 const err = (error) => {
     if (error.response) {
@@ -25,7 +20,7 @@ const err = (error) => {
         console.log("Error", error.message);
     }
 };
-const getData = async (organization_id) => {
+const getData = async (organization_id, i) => {
     // @ts-ignore
 
     let data = JSON.stringify({
@@ -54,6 +49,10 @@ const getData = async (organization_id) => {
                 venue {
                   lat
                   lng
+                  city
+                  country
+                  postalCode
+                  address
                 }
               }
             }
@@ -81,6 +80,10 @@ const getData = async (organization_id) => {
                 venue {
                   lat
                   lng
+                  city
+                  country
+                  postalCode
+                  address
                 }
               }
             }
@@ -96,7 +99,7 @@ const getData = async (organization_id) => {
         headers: {
             "Content-Type": "application/json",
         },
-        timeout: 100000,
+        timeout: 1000000,
         data: data,
     };
     return await // @ts-ignore
@@ -119,7 +122,7 @@ const getData = async (organization_id) => {
                         return event.venue;
                     }),
             ];
-            console.log(res.data.data.group.pastEvents.edges.length, res.data.data.group.upcomingEvents.edges.length, aLLEvents.length);
+            console.log(res.data.data.group.pastEvents.edges.length, res.data.data.group.upcomingEvents.edges.length, aLLEvents.length, `upper:${upper} lower:${lower} i:${i}`);
             aLLEvents.map((event, i) => {
                 fs.appendFileSync(fileName, JSON.stringify(event) + ",");
             });
@@ -127,12 +130,21 @@ const getData = async (organization_id) => {
         .catch(err);
 };
 
-
-
-let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/writing-organizations.json", "utf8"));
+let organizations = JSON.parse(fs.readFileSync(`./meetup/data/orgs/${file}-organizations.json`, "utf8"));
 
 fs.writeFileSync(fileName, "[");
-organizations.map((organization) => {
-    return getData(organization.id).catch(err);
-});
+
+let upper = 30,
+    lower = 0;
 console.log(organizations.length);
+const run = setInterval(() => {
+    organizations.splice(lower, upper).map((organization, i) => {
+        return getData(organization.id, i + lower).catch(err);
+    });
+    if (lower > organizations.length) {
+        console.log(upper, lower);
+        clearInterval(run);
+    }
+    upper += 30;
+    lower += 30;
+}, 20000);
