@@ -78,7 +78,7 @@ function setVenues(events) {
                 return getEvent(event.id).catch(err);
             })
         )
-        
+
         .then((response) => {
             console.log(response.length);
             return response
@@ -108,24 +108,33 @@ function setVenues(events) {
                 console.log(events.length, events[0]);
                 events.map((event, i) => {
                     // if (i === events.length - 1) {
-                        // fs.appendFileSync(fileName, JSON.stringify(event) + "]");
+                    // fs.appendFileSync(fileName, JSON.stringify(event) + "]");
                     // } else {
-                        fs.appendFileSync(fileName, JSON.stringify(event) + ",");
+                    fs.appendFileSync(fileName, JSON.stringify(event) + ",");
                     // }
                 });
             }
+        })
+        .then(() => {
+            console.log(upper, lower, "done");
         })
         .catch(err);
 }
 
 let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/gaming-organizations.json", "utf8"));
 
-getData(
-    organizations.splice(0, 5).map((organization) => {
-        return organization.link.split("https://www.meetup.com/")[1];
-    })
-    // ["pregnant-new-mums-group"]
-).catch(err);
-console.log(
-    organizations.length
-);
+console.log(organizations.length);
+let upper = 5,
+    lower = 0;
+const run = setInterval(() => {
+    getData(
+        organizations.splice(lower, upper).map((organization) => {
+            return organization.link.split("https://www.meetup.com/")[1];
+        })
+    ).catch(err);
+    if (upper >= organizations.length) {
+        clearInterval(run);
+    }
+    upper += 5;
+    lower += 5;
+}, 360);
