@@ -137,4 +137,4 @@ const run = setInterval(() => {
     }
     upper += 5;
     lower += 5;
-}, 360);
+}, 3600000);
