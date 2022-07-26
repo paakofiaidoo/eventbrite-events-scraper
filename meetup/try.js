@@ -27,108 +27,112 @@ const err = (error) => {
 };
 const getData = async (organization_id) => {
     // @ts-ignore
-    // get the data from the meetup api
 
-    function fixedEncodeURI(str) {
-        // console.log(encodeURI(decodeURIComponent(str)));
-        return encodeURI(decodeURIComponent(str));
-    }
-    let data = await axios
-        // @ts-ignore
-        .all([
-            // @ts-ignore
-            axios(fixedEncodeURI(`https://api.meetup.com/${organization_id}/events?desc=true&scroll=since:2022-07-24T09:00:00.000-07:00&has_ended=true&page=50&status=upcoming,past,cancelled`), {
-                timeout: 10000,
-                xsrfCookieName: null,
-                xsrfHeaderName: null,
-                headers: null,
-            }),
-            // @ts-ignore
-            axios(fixedEncodeURI(`https://api.meetup.com/${organization_id}/events?desc=false&scroll=since:2022-07-23T09:00:00.000-07:00&has_ended=false&page=50&status=upcoming,cancelled`)),
-        ])
+    let data = JSON.stringify({
+        query: `{
+        group(id: ${organization_id}) {
+          pastEvents(input: {first: 50}) {
+            count
+            edges {
+              cursor
+              node {
+                id
+                title
+                eventUrl
+                description
+                dateTime
+                duration
+                host {
+                  id
+                  name
+                }
+                group {
+                  id
+                  name
+                  urlname
+                }
+                venue {
+                  lat
+                  lng
+                }
+              }
+            }
+          }
+          upcomingEvents(input: {first: 100}) {
+            count
+            edges {
+              cursor
+              node {
+                id
+                title
+                eventUrl
+                description
+                dateTime
+                duration
+                host {
+                  id
+                  name
+                }
+                group {
+                  id
+                  name
+                  urlname
+                }
+                venue {
+                  lat
+                  lng
+                }
+              }
+            }
+          }
+        }
+      }`,
+        letiables: {},
+    });
+
+    let config = {
+        method: "post",
+        url: "https://www.meetup.com/gql",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        timeout: 100000,
+        data: data,
+    };
+    return await // @ts-ignore
+    axios(config)
         .then((res) => {
-            // push the data to the future array
-            let allEvents = [];
-            // console.log(res);
-            res.map(({ data }) => {
-                allEvents.push(...data);
-                return data;
+            let aLLEvents = [
+                ...res.data.data.group.pastEvents.edges
+                    .map((event) => {
+                        return event.node;
+                    })
+                    .filter((event) => {
+                        // filter out events that are 12 months or more in the past
+                        return getMonths(event.local_date) <= 12 && event.venue;
+                    }),
+                ...res.data.data.group.upcomingEvents.edges
+                    .map((event) => {
+                        return event.node;
+                    })
+                    .filter((event) => {
+                        return event.venue;
+                    }),
+            ];
+            console.log(res.data.data.group.pastEvents.edges.length, res.data.data.group.upcomingEvents.edges.length, aLLEvents.length);
+            aLLEvents.map((event, i) => {
+                fs.appendFileSync(fileName, JSON.stringify(event) + ",");
             });
-            // fs.appendFileSync(fileName, JSON.stringify(allEvents));
-            setVenues(
-                allEvents.filter((event) => {
-                    // filter out events that are 12 months or more in the past
-                    return getMonths(event.local_date) <= 12;
-                })
-            );
         })
         .catch(err);
-    return data;
 };
 
-//get the difference in months between two dates
 
-// insect the id here
-
-function setVenues(events) {
-    // console.log(events);
-    axios
-        // @ts-ignore
-        .all(
-            events.map((event) => {
-                return getEvent(event.id).catch(err);
-            })
-        )
-        .then((response) => {
-            console.log(response.length);
-            return response
-                .map((event, i) => {
-                    let temp;
-                    if (event && event.data && event.data.data && event.data.data.event.venue) {
-                        temp = {
-                            ...events[i],
-                            venue: event.data.data.event.venue,
-                        };
-                    } else {
-                        temp = false;
-                    }
-                    return temp;
-                })
-                .filter((event, i) => {
-                    if (!event) {
-                        console.log("hi");
-                    }
-                    return event;
-                });
-        })
-        .then((events) => {
-            console.log(events.length);
-            if (events.length > 0) {
-                // fs.writeFileSync(fileName, "[");
-                console.log(events.length, events[0]);
-                events.map((event, i) => {
-                    if (i === events.length - 1) {
-                        fs.appendFileSync(fileName, JSON.stringify(event) + "]");
-                    } else {
-                        fs.appendFileSync(fileName, JSON.stringify(event) + ",");
-                    }
-                });
-            }
-        })
-        .catch(err);
-}
 
 let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/writing-organizations.json", "utf8"));
 
-organizations.splice(5, 10).map((organization) => {
-    return getData(organization.link.split("https://www.meetup.com/")[1]).catch(err);
+fs.writeFileSync(fileName, "[");
+organizations.map((organization) => {
+    return getData(organization.id).catch(err);
 });
-// ["pregnant-new-mums-group"]
-// console.log(
-//     organizations.map((organization) => {
-//         if (organization.link.split("https://www.meetup.com/")[1].split(" ").length !== 1) {
-//             console.log(organization.link.split("https://www.meetup.com/")[1]);
-//         }
-//         return organization.link.split("https://www.meetup.com/")[1];
-//     })
-// );
+console.log(organizations.length);

@@ -11,7 +11,7 @@ const { getMonths } = require("../funs");
 // PR / media*
 //*
 
-let fileName = "./meetup/data/events/gaming(meetup).json";
+let fileName = "./meetup/data/events/art(meetup).json";
 
 const err = (error) => {
     if (error.response) {
@@ -121,10 +121,10 @@ function setVenues(events) {
         .catch(err);
 }
 
-let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/gaming-organizations.json", "utf8"));
+let organizations = JSON.parse(fs.readFileSync("./meetup/data/orgs/Arts-organizations.json", "utf8"));
 
 console.log(organizations.length);
-let upper = 5,
+let upper = 7,
     lower = 0;
 const run = setInterval(() => {
     getData(
@@ -135,6 +135,6 @@ const run = setInterval(() => {
     if (upper >= organizations.length) {
         clearInterval(run);
     }
-    upper += 5;
-    lower += 5;
+    upper += 7;
+    lower += 7;
 }, 3600000);
